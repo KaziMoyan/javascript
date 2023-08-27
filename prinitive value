@@ -1,0 +1,18 @@
+let a = null;
+        let b = 345;
+        let c = true;
+        let d = BigInt("567")
+        let e = "Harry"
+        let f = Symbol("I am a Good Boy ")
+        let g = undefined
+        console.log(a,b,c,d,e,f,g)
+console.log(typeof d)
+
+//object in js
+const item ={
+  "Moyeen":true,
+  "Kazi" : false,
+  "Lovish":67,
+  "Rohan":undefined 
+}
+console.log(item["Kazi"])
