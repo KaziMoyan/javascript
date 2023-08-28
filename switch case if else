@@ -1,0 +1,47 @@
+//practice condition switch case if else 
+//p1
+/*
+let age = prompt('What is yr age ??')
+if(age>10 && age<20){
+  console.log("Your age lies between 10 and 20")
+}
+else{
+  console.log("your age dosent lies between 10 and 20")
+} 
+ let age = prompt('What is yr age ??')
+switch(age){
+  case 11:
+    console.log("Your age is 11")
+case 12:
+    console.log("Your age is 12")
+    break
+case 13:
+    console.log("Your age is 13")
+    break
+case 14:
+    console.log("Your age is 16")
+    break
+case 15:
+    console.log("Your age is 15")
+    break
+  default:
+    console.log("You age is not special ")
+    
+
+    
+}
+
+p3
+
+let num = prompt("WHat is your age :")
+num = Number.parseInt(num)
+if(num%2==0 && num%3==0){
+  console.log("your number is divisiable by 3 and 2")
+}
+else{
+  console.log("Your number is not divisiable by 3 and 2 ")
+}
+
+let age = 19
+let a = age >18?"you can drive":"you cannot drive"
+console.log(a)
