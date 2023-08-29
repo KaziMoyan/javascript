@@ -1,0 +1,32 @@
+let marks={
+  Moyeen:90,
+  HT:88,
+  Naim:79,
+  rifat:83,
+}
+for(let i=0;i<Object.keys(marks).length;i++){
+  console.log("The marks of "+Object.keys(marks)[i]+"are"+marks[Object.keys(marks)[i]])
+}
+
+//p2
+
+for(let key in marks){
+  console.log("the marks of "+key+" are "+marks[key])
+  //console.log("The marks of "+Object.keys(marks)[i]+"are"+marks[Object.keys(marks)[i]])
+}
+
+//p3
+
+let c= 5
+let i 
+while(i!=c){
+i = prompt("Enetr a number:")
+  console.log("try again")
+}
+console.log("You have entered a correct number")
+
+//p4
+const mean =(a,b,c,d)=>{
+  return (a+b+c+d)/4
+}
+console.log(mean(4,5,6,7))
