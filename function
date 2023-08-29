@@ -1,0 +1,26 @@
+//function
+
+const hello =()=>{
+  console.log("helllljfsvj  rg rg")
+}
+
+
+function oneplusAvg(x,y){
+  console.log("Done")
+  return 1+(x+y)/2
+  console.log("Done")
+}
+
+const sum= (p,q)=>
+  {
+    return p+q
+  }
+
+let a = 1;
+let b = 2;
+let c = 3;
+hello();
+console.log("One plus avg of a & b is :",oneplusAvg(a,b))
+console.log("One plus avg of b & c is :",oneplusAvg(b,c))
+ console.log("One plus avg of a & c is :",oneplusAvg(a ,c))       
+console.log(sum(9,7))
