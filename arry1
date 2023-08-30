@@ -1,0 +1,7 @@
+let marks_class_12=[91,23,12,34,44,false,"Not present"]
+console.log(marks_class_12)
+console.log(marks_class_12[0])
+console.log("The length of marks is :",marks_class_12.length)
+marks_class_12[6]=89
+console.log(marks_class_12)
+console.log(typeof marks_class_12)
