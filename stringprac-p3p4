@@ -1,0 +1,14 @@
+//p4
+const word ='SUmu';
+console.log(word.toLowerCase())
+console.log(word.toUpperCase())
+
+let str ="Please give rs 1000"
+let amount=str.slice("Please give Rs :".length)
+console.log(amount)
+console.log(typeof amount)
+
+//p5
+let fri = "Mariom"
+fri[3]="R"
+console.log(fri)
