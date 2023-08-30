@@ -1,0 +1,15 @@
+let name = "MK"
+console.log(name.length)
+console.log(name[0])
+let friend ='Sk'
+console.log(friend)
+let myfri ="KS"
+console.log(myfri)
+//template li
+let boy1= "Moyeen"
+let girl1="SUmu"
+let sentence =`${boy1} is husband of ${girl1}`
+console.log(sentence)
+//esccape secquence character
+let fruit='Mang\'o'
+console.log(fruit.length)
