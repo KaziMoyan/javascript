@@ -1,0 +1,24 @@
+
+//map
+let arr=[45,44,22,33]
+ let a = arr.map((value,index,arry)=>{
+  console.log(value,index,arry)
+   return value +index
+})
+console.log(arr)
+
+//filter method
+
+let arr2=[2,3,45,66,6]
+let a2=arr2.filter((a)=>{
+  return a<6
+})
+console.log (a2,arr2)
+
+//reduce method
+
+let arr3 =[1,2,1,324,56,6,2]
+let newarr3=arr3.reduce((h1,h2)=>{
+  return h1 +h2
+})
+console.log(newarr3)
