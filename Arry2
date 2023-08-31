@@ -1,0 +1,32 @@
+let num =[1,2,3,4,5]
+let  b = num.toString()
+console.log(b)
+let c= num.join("and")
+console.log(c,typeof(c))
+let r= num.push(66)
+console.log(num,r)
+
+let p= num.pop(66)
+console.log(num,r)
+
+let num2 =[1,2,3,4,5,6,7]
+let num3 =[11,22,3,3,44,55,66]
+console.log(num2.length)
+delete num[0]
+console.log(num2.length)
+
+let newArry =num2.concat(num3)
+console.log(newArry)
+
+
+let num4 =[1,2,,3,411,9,99,3100,33,55,22,4,5,6,7]
+num.sort()
+console.log(num4)
+let compare=(a,b)=>{
+  return a-b
+}
+
+num4.splice(0,4,5,68,78,89,34,34)
+console.log(num4)
+let newNum=num4.slice(3)
+console.log(newNum)
