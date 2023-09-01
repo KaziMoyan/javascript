@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sc.css">
+    <script src="sc.js"></script>
+</head>
+<body>
+    <h1>Hello World</h1>
+
+    
+</body>
+</html>
+//
+alert("hello")
+let a =prompt("Enter a value:")
+a = Number.parseInt(a)
+alert("You enetr a of type"+(typeof a))
+let write = confirm("Do yu want to write it to the page :")
+if(write){
+    document.write(a)
+}
+else{
+document.write("Please allow me to write :")
+}
