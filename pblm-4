@@ -1,0 +1,17 @@
+let age = prompt("Enetr your age :")
+age = Number.parseInt(age)
+let runAgain =true
+while(runAgain){
+
+const canDirve =(age)=>{
+   return age>=18? true:false
+}
+
+if(canDirve(age)){
+    alert("Yes you can") 
+}
+else{
+    alert("You can not ")
+}
+runAgain =confirm("do you want to play again")
+}
